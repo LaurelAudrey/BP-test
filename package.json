@@ -1,24 +1,23 @@
 {
-  "name": "bp_test",
+  "name": "nucampsite",
   "version": "1.0.0",
-  "description": "Test repository for BlackPoint Website",
+  "description": "This a website in development for ",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LaurelAudrey/BP-test.git"
-  },
-  "author": "",
+  "author": "Laurel Audrey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LaurelAudrey/BP-test/issues"
-  },
-  "homepage": "https://github.com/LaurelAudrey/BP-test#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
